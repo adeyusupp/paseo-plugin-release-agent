@@ -4,11 +4,22 @@ A [Paseo](https://paseo.sh) plugin that lists agent sessions with their memory u
 
 Built for hosts with little RAM, where idle Claude/Codex processes (200-500 MB each) add up.
 
-![Agent sessions table](images/desktop-table.png)
+<p align="center">
+  <img src="images/desktop-table.png" alt="Agent sessions table on desktop" width="100%">
+</p>
 
-![Release confirmation](images/release-confirm.png)
-
-<img src="images/mobile-cards.jpg" alt="Mobile layout" width="320">
+<table>
+  <tr>
+    <td valign="top" width="62%">
+      <img src="images/release-confirm.png" alt="Release confirmation dialog" width="100%"><br>
+      <sub>Every release asks for confirmation.</sub>
+    </td>
+    <td valign="top" align="center" width="38%">
+      <img src="images/mobile-cards.jpg" alt="Mobile layout with cards" width="100%"><br>
+      <sub>Cards on mobile.</sub>
+    </td>
+  </tr>
+</table>
 
 ## Features
 
@@ -57,3 +68,7 @@ npm run typecheck
 npm test
 paseo plugin reload paseo-release-agent
 ```
+
+## License
+
+MIT

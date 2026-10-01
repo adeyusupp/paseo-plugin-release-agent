@@ -2,6 +2,7 @@
   "name": "paseo-release-agent",
   "version": "0.1.0",
   "description": "Paseo plugin to list agent sessions with memory use and release idle provider processes without archiving the agent",
+  "license": "MIT",
   "author": "yusup (https://github.com/adeyusupp)",
   "repository": {
     "type": "git",
