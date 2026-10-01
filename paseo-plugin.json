@@ -1,0 +1,6 @@
+{
+  "id": "paseo-release",
+  "requirements": {
+    "paseo": ">=0.10.1"
+  }
+}
