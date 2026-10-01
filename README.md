@@ -1,4 +1,4 @@
-# paseo-release
+# paseo-release-agent
 
 A [Paseo](https://paseo.sh) plugin that lists agent sessions with their memory use and releases (kills) the provider process of idle ones, without archiving the agent. The agent stays in your list and the provider restarts on the next prompt.
 
@@ -27,7 +27,7 @@ Plugins install per daemon. Run on every host you want it on:
 ```bash
 paseo plugin install <git-url-or-local-path>
 paseo plugin ls
-paseo plugin logs paseo-release
+paseo plugin logs paseo-release-agent
 ```
 
 Installing trusts the plugin: its server code runs unsandboxed with the daemon user's access. Read `server/` first.
@@ -49,5 +49,5 @@ Reload the app tab after installing or updating.
 npm install
 npm run typecheck
 npm test
-paseo plugin reload paseo-release
+paseo plugin reload paseo-release-agent
 ```

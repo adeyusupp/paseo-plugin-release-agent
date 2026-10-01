@@ -1,5 +1,6 @@
 {
-  "id": "paseo-release",
+  "id": "paseo-release-agent",
+  "description": "Paseo plugin to list agent sessions with memory use and release idle provider processes without archiving the agent",
   "requirements": {
     "paseo": ">=0.10.1"
   }

@@ -1,7 +1,27 @@
 {
-  "name": "paseo-release",
-  "private": true,
-  "version": "0.0.0",
+  "name": "paseo-release-agent",
+  "version": "0.1.0",
+  "description": "Paseo plugin to list agent sessions with memory use and release idle provider processes without archiving the agent",
+  "author": "yusup (https://github.com/adeyusupp)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adeyusupp/paseo-plugin-release-agent.git"
+  },
+  "homepage": "https://github.com/adeyusupp/paseo-plugin-release-agent#readme",
+  "bugs": {
+    "url": "https://github.com/adeyusupp/paseo-plugin-release-agent/issues"
+  },
+  "keywords": [
+    "paseo",
+    "paseo-plugin",
+    "memory",
+    "claude",
+    "codex",
+    "idle"
+  ],
+  "os": [
+    "linux"
+  ],
   "files": [
     "paseo-plugin.json",
     "index.client.ts",
@@ -9,8 +29,9 @@
     "index.server.ts",
     "index.server.tsx",
     "client/",
+    "shared/",
     "server/",
-    "shared/"
+    "!server/*.test.ts"
   ],
   "scripts": {
     "typecheck": "tsc --noEmit",
