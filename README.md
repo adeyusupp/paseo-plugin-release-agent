@@ -4,19 +4,18 @@ A [Paseo](https://paseo.sh) plugin that lists agent sessions with their memory u
 
 Built for hosts with little RAM, where idle Claude/Codex processes (200-500 MB each) add up.
 
-<p align="center">
-  <img src="images/desktop-table.png" alt="Agent sessions table on desktop" width="100%">
-</p>
-
 <table>
   <tr>
-    <td valign="top" width="62%">
+    <td valign="top" width="64%">
+      <img src="images/desktop-table.png" alt="Agent sessions table on desktop" width="100%"><br>
+      <sub>Desktop: sessions with status, idle time, uptime and memory.</sub>
+      <br><br>
       <img src="images/release-confirm.png" alt="Release confirmation dialog" width="100%"><br>
       <sub>Every release asks for confirmation.</sub>
     </td>
-    <td valign="top" align="center" width="38%">
+    <td valign="top" align="center" width="36%">
       <img src="images/mobile-cards.jpg" alt="Mobile layout with cards" width="100%"><br>
-      <sub>Cards on mobile.</sub>
+      <sub>Mobile: cards instead of a table.</sub>
     </td>
   </tr>
 </table>
