@@ -4,6 +4,12 @@ A [Paseo](https://paseo.sh) plugin that lists agent sessions with their memory u
 
 Built for hosts with little RAM, where idle Claude/Codex processes (200-500 MB each) add up.
 
+![Agent sessions table](images/desktop-table.png)
+
+![Release confirmation](images/release-confirm.png)
+
+<img src="images/mobile-cards.jpg" alt="Mobile layout" width="320">
+
 ## Features
 
 - Sidebar page "Release Agent Session": table on wide screens, cards on mobile.
